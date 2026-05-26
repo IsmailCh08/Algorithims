@@ -10,8 +10,8 @@ def binary_Search(arr, number):
             low = mid + 1
         elif number < arr[mid]:
             high = mid - 1 
-        else:
-            print('Your number is not in the array')
-    return None
+    return "not in list"
 
-print(binary_Search([1,2,3,5,8,7,9], 1))
+
+
+print(binary_Search([1,2,3,5,7,8,9], ))
